@@ -49,7 +49,7 @@ public class HttpServer {
         
         while ((inputLine = in.readLine()) != null) {
         	System.out.println(in.readLine()+"Sergio");
-            System.out.println("Recibí: " + inputLine);
+            System.out.println("Recibï¿½: " + inputLine);
             if (inputLine.contains("GET")) {
             	String[] palabra = inputLine.split("/");
                 String [] palabra2 =  palabra[1].split(" ");
@@ -61,9 +61,12 @@ public class HttpServer {
                 	else if(palabra2[0].contains(".html")) {
                 		leenos("/src/main/Resource/"+palabra2[0],out);
                 	}
-                	else {
-                		
+                	else if(palabra2[0].contains(".js")){
+                        leenos("/src/main/Resource/"+palabra2[0],out);
                 	}
+                	else{
+
+                    }
                 }
             }
             
@@ -123,7 +126,7 @@ public class HttpServer {
     
     public static void leenos(String pag, PrintWriter out) {
         BufferedReader intermedio;
-             try {//abrimos comunicación (buffer)
+             try {//abrimos comunicaciï¿½n (buffer)
             	 intermedio= new BufferedReader (new FileReader(System.getProperty("user.dir")+pag));
                  String text_linea="";
                  out.println("HTTP/1.1 200 OK \r\n\\r\\n");
@@ -131,7 +134,7 @@ public class HttpServer {
             	 //out.println("\r\n");
                  while(text_linea!= null) {
                 	 text_linea = intermedio.readLine();
-                	 System.out.println(text_linea);
+                	 //System.out.println(text_linea);
                 	 out.println(text_linea);
                     }
              } catch (IOException e) {
