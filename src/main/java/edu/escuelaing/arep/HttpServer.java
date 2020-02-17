@@ -68,7 +68,7 @@ public class HttpServer {
                         leenos("/src/main/Resource/"+palabra2[0],out);
                 	}
                 	else{
-
+                		leenos("/src/main/Resource/Perdido.html",out);
                     }
                 }
             }
@@ -77,23 +77,6 @@ public class HttpServer {
             	
             
         }
-
-        outputLine = "HTTP/1.1 200 OK\r\n"
-                + "Content-Type: text/html\r\n"
-                + "\r\n"
-                + "<!DOCTYPE html>\n"
-                + "<html>\n"
-                + "<head>\n"
-                + "<meta charset=\"UTF-8\">\n"
-                + "<title>Title of the document</title>\n"
-                + "</head>\n"
-                + "<body>\n"
-                + "<h1>El cuadrado del numero ingresado es: </h1>\n"
-                + "</body>\n" 
-                + "</html>\n" + inputLine;
-        //out.println(outputLine);
-        // recordar que puede fallar si entra en catch y no cierra esta vaina
-
         out.close();
         in.close();
         clientSocket.close();
