@@ -2,8 +2,6 @@
 
 En este repositorio se realiza un servidor web que soporta múltiples solicitudes seguidas (no concurrentes). El servidor debe retorna todos los archivos solicitados, incluyendo páginas html e imágenes, utilizando los Sockts desde el servidor.
 
-## Utilidades
-
 ## Como Instalar y Correr el Codigo
 
 - Debe estar en el directorio donde quiere traer el repositorio
@@ -19,6 +17,14 @@ $ mvn clean install
 ```
 $ mvn test
 ```
+Para correr el programa desde windows puede correr desde su cmd este codigo
+```
+mvn exec:java -Dexec.mainClass="com.example.Main" [-Dexec.args="argument1"]
+```
+
+![Imagenes](https://github.com/checho1998/AREP-Lab-03/blob/master/imagenes/correr.PNG)
+
+
 ## Construido en lenguaje
   
   - Java (V8)
