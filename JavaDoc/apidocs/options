@@ -1,0 +1,24 @@
+-classpath
+'C:/Users/chech/.m2/repository/com/sparkjava/spark-core/2.7.2/spark-core-2.7.2.jar;C:/Users/chech/.m2/repository/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/jetty-server/9.4.8.v20171121/jetty-server-9.4.8.v20171121.jar;C:/Users/chech/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/jetty-http/9.4.8.v20171121/jetty-http-9.4.8.v20171121.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/jetty-util/9.4.8.v20171121/jetty-util-9.4.8.v20171121.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/jetty-io/9.4.8.v20171121/jetty-io-9.4.8.v20171121.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.8.v20171121/jetty-webapp-9.4.8.v20171121.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.8.v20171121/jetty-xml-9.4.8.v20171121.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.8.v20171121/jetty-servlet-9.4.8.v20171121.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/jetty-security/9.4.8.v20171121/jetty-security-9.4.8.v20171121.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.4.8.v20171121/websocket-server-9.4.8.v20171121.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.8.v20171121/websocket-common-9.4.8.v20171121.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.8.v20171121/websocket-client-9.4.8.v20171121.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/jetty-client/9.4.8.v20171121/jetty-client-9.4.8.v20171121.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.4.8.v20171121/websocket-servlet-9.4.8.v20171121.jar;C:/Users/chech/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.8.v20171121/websocket-api-9.4.8.v20171121.jar'
+-encoding
+'Cp1252'
+-protected
+-sourcepath
+'C:/Users/chech/Downloads/AREP-Lab-03/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2020. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/chech/Downloads/AREP-Lab-03/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'SparkWebApp 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/chech/Downloads/AREP-Lab-03/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'SparkWebApp 1.0-SNAPSHOT API'
