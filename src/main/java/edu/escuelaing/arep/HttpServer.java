@@ -22,7 +22,10 @@ public class HttpServer {
 	
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = null;
-        int puerto = getPort();;
+        int puerto = getPort();
+        while (true) {
+        	
+        
         try {
             serverSocket = new ServerSocket(puerto);
             System.out.println(puerto);
@@ -95,6 +98,7 @@ public class HttpServer {
         in.close();
         clientSocket.close();
         serverSocket.close();
+        }
     }
 
 
