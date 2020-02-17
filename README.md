@@ -17,7 +17,7 @@ $ mvn clean install
 ```
 $ mvn test
 ```
-Para correr el programa desde windows puede correr desde su cmd este codigo
+- Para correr el programa desde windows puede correr desde su cmd este codigo
 ```
 mvn exec:java -Dexec.mainClass="com.example.Main" [-Dexec.args="argument1"]
 ```
